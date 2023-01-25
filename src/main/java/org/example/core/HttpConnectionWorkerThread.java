@@ -28,11 +28,11 @@ public class HttpConnectionWorkerThread extends Thread {
 //            OutputStream write to the socket
             outputStream = socket.getOutputStream();
 
-//            Reading
-//              Currently disregarding reading from the browser
+//            int _byte;
+//            while ((_byte = inputStream.read()) >= 0) {
+//                System.out.print((char) _byte);
+//            }
 
-//            Writing
-//            Defining page to send to the browser
             String html = "<html><head><title>Simple title</title></head><body><h1>Test header</h1></body></html>";
 
             final String CRLF = "\r\n";  //13, 10
