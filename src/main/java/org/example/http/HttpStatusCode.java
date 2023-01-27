@@ -9,7 +9,7 @@ public enum HttpStatusCode {
     //  Server errors
     SERVER_ERROR_500_INTERNAL_SERVER_ERROR(500, "Internal server error"),
     SERVER_ERROR_501_NOT_IMPLEMENTED(501, "Not implemented"),
-    ;
+    SERVER_ERROR_505_HTTP_VERSION_NOT_SUPPORTED(505, "HTTP Version not supported");
 
     public final int STATUS_CODE;
     public final String MESSAGE;
